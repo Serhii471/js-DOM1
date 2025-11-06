@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Калькулятор</title>
+    <link rel="stylesheet" href="src.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h2>Простий Калькулятор</h2>
+        
+        <div class="input-group">
+            <label for="num1">Число 1:</label>
+            <input type="text" id="num1" placeholder="Введіть перше число">
+        </div>
+        
+        <div class="input-group">
+            <label for="num2">Число 2:</label>
+            <input type="text" id="num2" placeholder="Введіть друге число">
+        </div>
+        
+        <div class="button-group">
+            <button id="addBtn" title="Додати">+</button>
+            <button id="subtractBtn" title="Відняти">-</button>
+            <button id="multiplyBtn" title="Помножити">*</button>
+            <button id="divideBtn" title="Поділити">/</button>
+        </div>
+        
+        <div class="result-area">
+            <h3>Результат:</h3>
+            <p id="result">0</p>
+        </div>
+        
+        <div class="error-area">
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+    
+    <script src="src.js"></script>
+</body>
+</html>
